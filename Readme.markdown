@@ -4,9 +4,12 @@ This is a template for plugin submission.
 
 Please read the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html) for more information.
 
-This template provides stubs for two of the top level directories that are needed in your plugin submission:
+This template provides stubs for two of the top level directories that are needed in your plugin submission. 
 
-* `docs/` All instances of the string 'PLUGIN_NAME' should be renamed in all files
+In each file there are strings in ALL CAPS that should be replaced with information specific to your plugin. For example, all instances of the string 'PLUGIN_NAME' should be renamed in each file of the template:
+
+* `metadata.json`
+* `docs/` 
     + `PLUGIN_NAME/` This folder should correspond to the name of , e.g. 'openudid'
         - `index.markdown` This is the top level page for your plugin's documentation
         - `FUNCTION.markdown` This is a stub for a library function offered your plugin
