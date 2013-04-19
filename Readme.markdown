@@ -14,11 +14,22 @@ In each file there are strings in ALL CAPS that should be replaced with informat
         - `index.markdown` This is the top level page for your plugin's documentation
         - `FUNCTION.markdown` This is a stub for a library function offered your plugin
         - `PROPERTY.markdown` This is a stub for a library property offered by your plugin
+* `plugins/`
+    + `android/`
+        - `metadata.lua` This is a stub for the metadata describing the binary
+    + `iphone/`
+        - `metadata.lua` This is a stub for the metadata describing the binary
 * `samples/`
     + `build.settings` You should modify this so that the build server knows what plugins are needed. See instructions inside the file
     + `main.lua` You should modify this to demonstrate how to use the plugin.
 
-Please note that this template does __not__ provide stubs for the plugin binaries themselves. The directory structure for that is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
+Please note there are _missing_ stub directories for:
+
+* `plugins/iphone-sim`
+* `plugins/mac-sim`
+* `plugins/win32-sim`
+
+The complete directory structure is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
 
 ## Markdown guidelines
 
