@@ -66,7 +66,7 @@ You can access sample code [here](INSERT_URL).
 
 ## Support
 
-More support is available from the inneractive team:
+More support is available from the PUBLISHER_NAME team:
 
 * [E-mail](mailto://PUBLISHER_CONTACT@PUBLISHER_URL)
 * [Forum](http://forum.coronalabs.com/plugin/PLUGIN_NAME)
