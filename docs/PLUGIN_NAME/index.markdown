@@ -62,7 +62,7 @@ TBD
 
 ## Sample Code
 
-You can access sample code [here](INSERT_URL).
+You can access sample code [here](SAMPLE_CODE_URL).
 
 ## Support
 

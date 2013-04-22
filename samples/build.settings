@@ -31,7 +31,7 @@ settings =
 	-- 
 	-- 1. Uncomment this block
 	-- 2. Rename PLUGIN_NAME to the name of your plugin, e.g. "openudid"
-	-- 3. Rename PUBLISHER using the reverse domain name, e.g. "com.mycompany"
+	-- 3. Rename REVERSE_PUBLISHER_URL using the reverse domain name, e.g. "com.mycompany"
 	--[[
 	plugins =
 	{
@@ -39,7 +39,7 @@ settings =
 		["plugin.PLUGIN_NAME"] =
 		{
 			-- required
-			publisherId = "PUBLISHER",
+			publisherId = "REVERSE_PUBLISHER_URL",
 		},
 	},
 	--]]

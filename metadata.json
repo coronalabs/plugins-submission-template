@@ -2,5 +2,5 @@
     "contact": "PUBLISHER_CONTACT@PUBLISHER_URL",
     "url": "http://PUBLISHER_URL",
     "pluginName": "plugin.PLUGIN_NAME",
-    "publisherId": "PUBLISHER_URL"
+    "publisherId": "REVERSE_PUBLISHER_URL"
 }
