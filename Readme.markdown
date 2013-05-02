@@ -13,10 +13,11 @@ This template provides stubs for two of the top level directories that are neede
         - `FUNCTION.markdown` This is a stub for a library function offered your plugin
         - `PROPERTY.markdown` This is a stub for a library property offered by your plugin
 * `plugins/`
-    + `android/`
-        - `metadata.lua` This is a stub for the metadata describing the binary
-    + `iphone/`
-        - `metadata.lua` This is a stub for the metadata describing the binary
+    + `VERSION/`
+        - `android/`
+            - `metadata.lua` This is a stub for the metadata describing the binary
+        - `iphone/`
+            - `metadata.lua` This is a stub for the metadata describing the binary
 * `samples/`
     + `build.settings` You should modify this so that the build server knows what plugins are needed. See instructions inside the file
     + `main.lua` You should modify this to demonstrate how to use the plugin.
@@ -37,6 +38,9 @@ In each file there are strings in ALL CAPS that should be replaced with informat
     + You should preserve any prefix such as `plugin.` or `plugin_`. 
     + Note the trailing '.' and '_', respectively.
     + Don't forget to rename the directory called `PLUGIN_NAME`.
+* `VERSION`
+    + This is a directory
+    + You should rename this to the daily build version of Corona in which the plugin is available, e.g. 2013.1076.
 * `PUBLISHER_CONTACT` The e-mail of the main contact person for support.
 * `PUBLISHER_NAME` The brand name of the publisher.
 * `PUBLISHER_URL` The url of the publisher
