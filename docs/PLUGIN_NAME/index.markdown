@@ -6,6 +6,7 @@
 > __Keywords__          PLUGIN_NAME
 > __Sample code__       
 > __See also__          
+> __Availability__      Starter, Pro, Enterprise
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
