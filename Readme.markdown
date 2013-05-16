@@ -18,15 +18,15 @@ This template provides stubs for two of the top level directories that are neede
             - `metadata.lua` This is a stub for the metadata describing the binary
         - `iphone/`
             - `metadata.lua` This is a stub for the metadata describing the binary
+        - `iphone-sim/`
+            - `metadata.lua` This is a stub for the metadata describing the binary
+        - `mac-sim/`
+            - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
+        - `win32-sim/`
+            - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
 * `samples/`
     + `build.settings` You should modify this so that the build server knows what plugins are needed. See instructions inside the file
     + `main.lua` You should modify this to demonstrate how to use the plugin.
-
-Please note there are _missing_ stub directories for:
-
-* `plugins/iphone-sim`
-* `plugins/mac-sim`
-* `plugins/win32-sim`
 
 The complete directory structure is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
 
@@ -37,7 +37,7 @@ In each file there are strings in ALL CAPS that should be replaced with informat
 * `PLUGIN_NAME` This should be the name of the plugin. 
     + You should preserve any prefix such as `plugin.` or `plugin_`. 
     + Note the trailing '.' and '_', respectively.
-    + Don't forget to rename the directory called `PLUGIN_NAME`.
+    + Don't forget to rename any file __and__ directory with `PLUGIN_NAME` in it, e.g. `plugin_PLUGIN_NAME.lua` => `plugin_openudid.lua`.
 * `VERSION`
     + This is a directory
     + You should rename this to the daily build version of Corona in which the plugin is available, e.g. 2013.1076.
