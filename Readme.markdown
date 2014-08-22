@@ -16,10 +16,15 @@ This template provides stubs for two of the top level directories that are neede
     + `VERSION/`
         - `android/`
             - `metadata.lua` This is a stub for the metadata describing the binary
+            - `resources/`
+                - `assets/` This folder contains files to be added to the assets folder and can be retrieved via the assets manager
+                - `res/` This folder contains files you want to put in the res folder and can be access via http://developer.android.com/reference/android/content/res/Resources.html#getIdentifier(java.lang.String, java.lang.String, java.lang.String).  The structure of the subfolder is exactly the same as the res folder.
         - `iphone/`
             - `metadata.lua` This is a stub for the metadata describing the binary
+            - `resources/` This folder will contain all the resources you want in the app.  It is relative to the root app directory.
         - `iphone-sim/`
             - `metadata.lua` This is a stub for the metadata describing the binary
+            - `resources/` This folder will contain all the resources you want in the app.  It is relative to the root app directory.
         - `mac-sim/`
             - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
         - `win32-sim/`
