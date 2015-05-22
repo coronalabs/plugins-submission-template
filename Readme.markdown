@@ -1,6 +1,6 @@
 # Corona Plugin Submission Template
 
-This is a template for plugin submission.
+This is a template for [plugin submission](https://store.coronalabs.com/corona-store-application).
 
 Please read the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html) for more information.
 
