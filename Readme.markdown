@@ -19,11 +19,15 @@ This template provides stubs for two of the top level directories that are neede
             - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
         - `win32-sim/`
             - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
-* `samples/`
-    + `build.settings` You should modify this so that the build server knows what plugins are needed. See instructions inside the file
-    + `main.lua` You should modify this to demonstrate how to use the plugin.
 
 The complete directory structure is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
+
+## Docs and Sample Code
+
+In order for your plugin to be used successfully, you should provide API documentation _and_ sample code for your plugin online. 
+
+For API docs, we recommend using our [Plugin Docs Template](https://github.com/coronalabs/plugins-template-library-docs/blob/master/Instructions.markdown).
+
 
 ## Replacing strings in ALL CAPS
 
