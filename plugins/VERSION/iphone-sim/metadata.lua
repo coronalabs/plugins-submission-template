@@ -11,6 +11,12 @@ local metadata =
 		frameworks = {},
 		frameworksOptional = {},
 	},
+	coronaManifest = {
+		dependencies = {
+			-- Example dependencies:
+			--["plugin.memoryBitmap"] = "com.coronalabs",
+		},
+	},
 }
 
 return metadata
