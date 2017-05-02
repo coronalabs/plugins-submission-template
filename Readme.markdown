@@ -1,8 +1,6 @@
 # Corona Plugin Submission Template
 
-This is a template for [plugin submission](https://store.coronalabs.com/corona-store-application).
-
-Please read the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html) for more information.
+Please read the [Plugin Submission Guidelines](https://docs.coronalabs.com/native/plugin/submission.html) for more information.
 
 This template provides stubs for two of the top level directories that are needed in your plugin submission:
 
@@ -20,7 +18,7 @@ This template provides stubs for two of the top level directories that are neede
         - `win32-sim/`
             - `plugin_PLUGIN_NAME.lua` This is a stub Lua file to be used by the Corona Simulator
 
-The complete directory structure is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
+The complete directory structure is explained in the [Plugin Submission Guidelines](https://docs.coronalabs.com/native/plugin/submission.html)
 
 
 ## Replacing strings in ALL CAPS
@@ -33,7 +31,7 @@ In each file there are strings in ALL CAPS that should be replaced with informat
     + Don't forget to rename any file __and__ directory with `PLUGIN_NAME` in it, e.g. `plugin_PLUGIN_NAME.lua` => `plugin_openudid.lua`.
 * `VERSION`
     + This is a directory
-    + You should rename this to the daily build version of Corona in which the plugin is available, e.g. 2013.1076.
+    + You should rename this to the daily build version of Corona in which the plugin is available, e.g. 2017.3070.
 * `PUBLISHER_CONTACT` The e-mail of the main contact person for support.
 * `PUBLISHER_NAME` The brand name of the publisher.
 * `PUBLISHER_URL` The url of the publisher
