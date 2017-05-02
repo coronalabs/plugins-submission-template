@@ -22,12 +22,6 @@ This template provides stubs for two of the top level directories that are neede
 
 The complete directory structure is explained in the [Plugin Submission Guidelines](http://docs.coronalabs.com/daily/native/plugin/submission.html)
 
-## Docs and Sample Code
-
-In order for your plugin to be used successfully, you should provide API documentation _and_ sample code for your plugin online. 
-
-For API docs, we recommend using our [Plugin Docs Template](https://github.com/coronalabs/plugins-template-library-docs/blob/master/Instructions.markdown).
-
 
 ## Replacing strings in ALL CAPS
 
