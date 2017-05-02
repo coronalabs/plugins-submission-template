@@ -27,11 +27,11 @@ In each file there are strings in ALL CAPS that should be replaced with informat
 
 * `PLUGIN_NAME` This should be the name of the plugin. 
     + You should preserve any prefix such as `plugin.` or `plugin_`. 
-    + Note the trailing '.' and '_', respectively.
+    + Note the trailing `.` and `_`, respectively.
     + Don't forget to rename any file __and__ directory with `PLUGIN_NAME` in it, e.g. `plugin_PLUGIN_NAME.lua` => `plugin_openudid.lua`.
 * `VERSION`
     + This is a directory
-    + You should rename this to the daily build version of Corona in which the plugin is available, e.g. 2017.3070.
+    + You should rename this to the daily build version of Corona in which the plugin is available, e.g. `2017.3070`.
 * `PUBLISHER_CONTACT` The e-mail of the main contact person for support.
 * `PUBLISHER_NAME` The brand name of the publisher.
 * `PUBLISHER_URL` The url of the publisher
